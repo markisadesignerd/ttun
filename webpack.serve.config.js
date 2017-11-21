@@ -20,6 +20,7 @@ export default merge(base, {
   ],
   devtool: 'cheap-module-eval-source-map',
   devServer: {
+    contentBase: resolve(__dirname, './dist'),
     hot: true,
     overlay: {
       errors: true

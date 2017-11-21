@@ -1,0 +1,17 @@
+.ttun {
+  position: relative;
+  display: inline-block;
+}
+
+.ttun:after {
+  box-sizing: border-box;
+  color: #bb0000;
+  content: '✘';
+  display: block;
+  font: bold 1.5em/1 Arial, sans-serif;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-45%, -0.06em);
+  z-index: 1;
+}

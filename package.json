@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "That team up north...",
   "main": "./dist/ttun.auto.js",
-  "module": "./dist/ttun.js",
   "scripts": {
     "start": "node -r babel-register node_modules/.bin/webpack-dev-server --config=webpack.serve.config.js --progress --colors",
     "build": "node -r babel-register node_modules/.bin/webpack --config=webpack.build.config.js --progress --colors",

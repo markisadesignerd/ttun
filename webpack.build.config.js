@@ -14,7 +14,8 @@ export default merge(base, {
     pathinfo: false,
     filename: '[name].min.js',
     library: 'ttun',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    libraryExport: 'default',
   },
   devtool: false,
   plugins: [

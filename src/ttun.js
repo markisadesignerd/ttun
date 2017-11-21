@@ -1,7 +1,7 @@
 import Mark from 'mark.js';
 import css from './ttun.css';
 
-export default function ttun() {
+export default function () {
   const styleNode = document.createElement('style');
   styleNode.type = 'text/css';
   styleNode.appendChild(document.createTextNode(css.toString()));

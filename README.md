@@ -12,6 +12,12 @@ The heavy lifting is done with the wonderful [mark.js library](https://github.co
 
 ### Usage
 If you just want the script to execute on `load` just include `ttun.auto.min.js` before the closing `<body>` tag.
+```html
+...
+   <script src='ttun.auto.min.js'></script>
+</body>
+</html>
+```
 
 If you need to defer the execution further,  
 
@@ -39,7 +45,7 @@ or
 
 ##### Script Tag
 ```html
-<script src='ttun.min.js'>
+<script src='ttun.min.js'></script>
 ```
 ```javascript
 var ttun = window.ttun;

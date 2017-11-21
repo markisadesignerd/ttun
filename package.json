@@ -1,6 +1,6 @@
 {
   "name": "ttun",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "That team up north...",
   "main": "dist/ttun.auto.js",
   "scripts": {
